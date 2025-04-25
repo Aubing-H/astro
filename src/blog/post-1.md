@@ -1,28 +1,22 @@
 ---
-title: 'Bingos First Blog Post'
-pubDate: 2025-04-08
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+title: '2025 领导力学习 16/52'
+pubDate: 2025-04-20
+description: '领导力学习之16/52.'
+author: 'Jinbing Hou'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+    url: ''
+    alt: ''
+tags: ["职通车", "blogging", "终身学习"]
 ---
 
-# My First Blog Post
+## 金句
 
-Published on: 2022-07-01
+***组织和团队常陷入“习惯性防卫”，从而把心智模式与外界隔绝开来，无法进行反省检查。***
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+## 故事
 
-## What I've accomplished
+周六下午是我们gogo小组的第一次线下交流会，瑾洁学姐提前安排好了下午的讨论安排：1. 轮流分享故事，2. 提出各自面临的困惑，3. 讨论愿景。
+我分享的是上周的故事，关于我和前端同事无效沟通的故事：因为我过于关注系统上某一小部分的BUG，感觉是给前端同事挑刺，前端同事没有很好的理解也没有及时处理系统上的问题；然而，项目经理对照项目需求列表，指出这些问题并分析进度情况的之后，前端同事着手去处理了。我对于这一件故事所保持的观点是因为自己跟同事沟通的时候没有从项目整体和主要问题出发（个人假设），使得前端同事感觉是给他挑毛病（个人假设），使得他不愿意处理这些细小的毛病。
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
-
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
-
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+然而硕哥没有肯定这是一个关于整体和局部的问题，并让我从另外一些角度分析我跟前端同事无效沟通的原因：可能是在沟通的过程中没有很好地将内心的真实想法表达出来，可能是在沟通过程中带有情绪化表达，从而导致前端同事对这件事情没有很在意，也可能是其他原因。我仔细回忆对话的过程，感觉是自己并不想给前端同事添加麻烦，习惯性地认为给同事添加任务可能会引起他们的反感，但因为项目需要推进，就挑一些比较细节和局部的问题说事：“我昨天调试算法的时候，发现前端页面上好像还有一些问题，本来应该是...，现在这里似乎出现了BUG”，其实我可能想表达的意思是：“项目快到系统验收阶段了，但是前端还有很多BUG，得赶紧抽时间处理了。目前有这些问题：1. 2. 3. ...”。“习惯性防卫”的做法无疑阻止了将内心的真实想法表达出来。
+在线下交流会上硕哥提供了很多切中肯綮的建议，我从中意识到自己应该通过"左手栏"工具持续发现沟通中的问题——即在日常对话中，观察"实际说出的内容"与"内心的真实想法"，同时养成事后复盘关键对话的习惯，逐步打破这种自我保护式的沟通惯性。

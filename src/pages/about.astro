@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/global.css';
 
-const pageTitle = "About Me";
+const pageTitle = "自我介绍";
 
 const identity = {
   firstName: "Sarah",
@@ -11,9 +11,9 @@ const identity = {
   hobbies: ["photography", "birdwatching", "baseball"],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const skills = ["python", "RAG"];
 
-const happy = true;
+const expect = true;
 const finished = true;
 const goal = 3;
 
@@ -37,28 +37,27 @@ h1 {
 
 <BaseLayout pageTitle={pageTitle}>
     
-    <h2>... and my new Astro site!</h2>
+    <h2>终身学习，让身边的人生活更加幸福!</h2>
 
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+    <p>我是侯金冰，目前在南京 <a href="https://polixir.ai/">南栖仙策（南京）科技有限公司<a/> 工作，职位是机器学习工程师，负责大语言模型应用相关技术。曾就读于<a href="https://www.bupt.edu.cn/">北京邮电大学<a/>，并于2024年获得计算机科学与技术硕士学位。研究生期间主要从事开放世界决策相关课题研究。</p>
 
     <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
 
     <p>Here are a few facts about me:</p>
     <ul>
-    <li>My name is {identity.firstName}.</li>
-    <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-    {
+    <li>日常运动：跑步</li>
+    <li>有过的爱好：骑行、滑板</li>
+    <!-- {
         identity.hobbies.length >= 3 &&
         <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
-    }
+    } -->
     </ul>
-    <p>My skills are:</p>
+    <p>技能:</p>
     <ul>
     {skills.map((skill) => <li class="skill">{skill}</li>)}
     </ul>
-    {happy && <p>I am happy to be learning Astro!</p>}
+    {expect && <p>Doing: 学习系统性思考中...</p>}
 
-    {finished && <p>I finished this tutorial!</p>}
+    {finished && <p>Done: 阅读《第五项修炼》--彼得·圣吉</p>}
 
-    {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
 </BaseLayout>

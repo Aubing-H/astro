@@ -6,8 +6,12 @@ const { platform, username } = Astro.props;
 <style>
   a {
     padding: 0.5rem 1rem;
-    color: white;
-    background-color: #4c1d95;
-    text-decoration: none;
+    color: var(--color-text);
+    text-decoration: underline;
+    transition: opacity 0.3s ease;
+  }
+
+  a:hover {
+    opacity: 0.8;
   }
 </style>

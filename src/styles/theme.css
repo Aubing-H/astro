@@ -1,0 +1,32 @@
+:root {
+  /* 基础颜色 */
+  --color-primary: #ff9776;
+  --color-text: #000;
+  --color-bg: #fff;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  
+  /* 主题切换按钮 */
+  --theme-toggle-hover: rgba(0, 0, 0, 0.1);
+  --theme-toggle-bg: transparent;
+}
+
+/* 暗色模式 */
+:root.dark {
+  --color-primary: #ff9776;
+  --color-text: #fff;
+  --color-bg: #1c1c23;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  
+  /* 主题切换按钮 */
+  --theme-toggle-hover: rgba(0, 0, 0, 0.3);
+  --theme-toggle-bg: rgba(0, 0, 0, 0.2);
+}
+
+/* 组件特定颜色 */
+:root {
+  --header-bg: #f8f9fa;
+}
+
+:root.dark {
+  --header-bg: #2d2d3a;
+} 
